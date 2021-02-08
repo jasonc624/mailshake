@@ -1,12 +1,11 @@
 import {AfterViewInit, Component, Input, OnChanges, OnInit, SimpleChanges, ViewChild} from '@angular/core';
 import {merge, of} from 'rxjs';
-import {StarWarsService} from '../star-wars.service';
 import {MatSort, Sort} from '@angular/material/sort';
 import {FormControl} from '@angular/forms';
 import {MatPaginator, PageEvent} from '@angular/material/paginator';
 import {catchError, map, startWith, switchMap, takeUntil, tap} from 'rxjs/operators';
 import {BaseComponent} from '../../base.component';
-
+import {StarWarsService} from '../star-wars.service';
 
 @Component({
   selector: 'app-table',
