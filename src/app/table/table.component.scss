@@ -1,0 +1,35 @@
+table {
+  width: 80%;
+  margin-left:15px;
+}
+.cool-chip-1 {
+  background-color: crimson !important;
+}
+.cool-chip-2 {
+  background-color: lightseagreen !important;
+}
+.cool-chip-3 {
+  background-color: gold !important;
+}
+.cool-chip-4 {
+  background-color: rebeccapurple !important;
+}
+.cool-chip-5 {
+  background-color: darkolivegreen !important;
+}
+.cool-chip-6 {
+  background-color: orangered !important;
+}
+.cool-chip-7 {
+  background-color: deeppink !important;
+}
+.cool-chip-8 {
+  background-color: darkslategray !important;
+}
+.mat-row:nth-child(even){
+  background-color: #e8e8e8;
+}
+.paginator {
+  display:grid;
+  grid-template-columns: .1fr 1fr;
+}

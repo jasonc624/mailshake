@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.container  {
+  width: 100%;
+  .input-boxes {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 15px;
+    width: 80%;
+    margin-left: 15px;
+  }
+}
