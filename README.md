@@ -1,6 +1,8 @@
 # Mailshake
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1. 
+
+To run `npm i && npm run start`
 
 ## Development server
 
