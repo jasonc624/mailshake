@@ -123,7 +123,6 @@ export class TableComponent extends BaseComponent implements AfterViewInit, OnCh
 
   ngOnChanges(changes: SimpleChanges) {
     if (changes && changes.filters) {
-      // console.log('filters change', changes.filters);
       if (this.paginator) {
         this.init();
       }
